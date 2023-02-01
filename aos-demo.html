@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        * {
+            font-family: 'Segoe UI';
+            font-weight: 100;
+        }
+
+
+        .demo1, .demo2, .demo3, .demo4, .demo5 {
+            height: 100vh;
+            border: 1px solid black;
+            width: 100%;
+            color: black;
+        }
+
+        h1 {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo1">
+        <h1 data-aos="fade-right" data-aos-duration="3000">Animate On Scroll Library</h1>
+    </div>
+    <div class="demo2">
+        <h1 data-aos="fade-left" data-aos-duration="3000">Animate On Scroll Library</h1>
+    </div>
+    <div class="demo3">
+        <h1 data-aos="flip-left" data-aos-duration="3000">Animate On Scroll Library</h1>
+    </div>
+    <div class="demo4">
+        <h1 data-aos="flip-right" data-aos-duration="3000">Animate On Scroll Library</h1>
+    </div>
+    <div class="demo5">
+        <h1 data-aos="zoom-in" data-aos-duration="3000">Animate On Scroll Library</h1>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
